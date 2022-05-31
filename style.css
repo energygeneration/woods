@@ -1,0 +1,13 @@
+.banner-image{
+    background-image: url("image/img_slide.png");
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+}
+
+li a {
+    margin-right: 55px;
+    color: white;
+    text-decoration: none;
+}
