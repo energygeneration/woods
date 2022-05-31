@@ -1,65 +1,89 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Woods hotel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  </head>
+</head>
 
- <body>
-      
-          <!-- Navbar--> 
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-            <div class="container">
-                <a href="#" class="navbar-brand">Wood Hotel</a>
-                <button
-                  type="button"
-                  class="navbar-toggler"
-                  data-bs-target="#navbarNav"
-                  data-bs-toggle="collapse"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-lable="toggle Navbar"
-                >
+<body>
+
+    <!-- Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Wood Hotel</a>
+            <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-lable="toggle Navbar">
                   <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <div class="mx-auto"></div>
-                  <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a href="#" class="nav-link-text white">About Us</a>
+                        <a href="#" class="nav-link-text white">About Us</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link-text white">Rooms</a>
+                        <a href="#" class="nav-link-text white">Rooms</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link-text white">Facilitiess</a>
+                        <a href="#" class="nav-link-text white">Facilitiess</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link-text white">Offers</a>
+                        <a href="#" class="nav-link-text white">Offers</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link-text white">Contact</a>
+                        <a href="#" class="nav-link-text white">Contact</a>
                     </li>
-                  </ul>
-                </div>
+                </ul>
             </div>
-        </nav>
-       
-        <!-- image--> 
-        <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-          <div class="content text-center">
+        </div>
+    </nav>
+
+    <!-- image-->
+    <div class="banner-image w-100 d-flex justify-content-center align-items-center" style="height: 956px;">
+        <div class="content text-center">
             <h1 class="text-white">ENJOY YOUR HOLYDAYS</h1>
 
-          </div>
+        </div>
+    </div>
+
+    <!--Main content area-->
+    <div class="container" style="background-color: #284B63;">
+        <form class="d-flex justify-content-between">
+            <div class="form-group">
+                <label class="form-control-label" style="color: white;" for="formGroup1">CHECK-IN DATE</label>
+                <input type="Date" class="form-control" id="formGroup1">
+            </div>
+            <div class="form-group">
+                <label class="form-control-label" style="color: white;" for="formGroup2">CHECK-ON DATE</label>
+                <input type="Date" class="form-control" id="formGroup2">
+            </div>
+            <button type="button" class="btn" style="background-color: darkslategrey; color: white;">CHECK AVAILABILITY</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="image/rooms.png" alt="image">
+            </div>
+            <div class="col-6">
+
+            </div>
         </div>
 
-        <!--Main content area-->
 
+    </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
 </html>

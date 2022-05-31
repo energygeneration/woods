@@ -1,7 +1,13 @@
-.banner-image{
-    background-image: url("image/img_slide.png");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap');
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.banner-image {
+    background-image: url("image/imag_fond.png");
     background-size: cover;
 }
+
 ul {
     list-style-type: none;
 }
@@ -10,4 +16,37 @@ li a {
     margin-right: 55px;
     color: white;
     text-decoration: none;
+}
+
+.btn {
+    width: 337px;
+    height: 73px;
+    top: 24px;
+    position: relative;
+    font-weight: 700;
+    font-size: 24px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.text-white {
+    font-weight: 700;
+    font-size: 74px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.form-control {
+    width: 337px !important;
+    height: 73px !important;
+    border-radius: 0 !important;
+}
+
+.container {
+    width: 1180px;
+    height: 199px;
+    position: relative;
+    ottom: 107px;
 }
