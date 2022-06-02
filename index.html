@@ -15,8 +15,9 @@
 <body>
 
     <!-- Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-5">
         <div class="container">
+
             <a href="#" class="navbar-brand">Wood Hotel</a>
             <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-lable="toggle Navbar">
                   <span class="navbar-toggler-icon"></span>
@@ -46,15 +47,15 @@
     </nav>
 
     <!-- image-->
-    <div class="banner-image w-100 d-flex justify-content-center align-items-center" style="height: 956px;">
-        <div class="content text-center">
+    <div class="banner-image w-100 d-flex justify-content-center align-items-center" style="background-image: url(images/imag_fond.png);">
+        <div class="color-overlay d-flex justify-content-center align-items-center">
             <h1 class="text-white">ENJOY YOUR HOLYDAYS</h1>
 
         </div>
     </div>
 
     <!--Main content area-->
-    <div class="container" style="background-color: #284B63;">
+    <div class="container formulaire" style="background-color: #284B63; height: 199px;">
         <form class="d-flex justify-content-between">
             <div class="form-group">
                 <label class="form-control-label" style="color: white;" for="formGroup1">CHECK-IN DATE</label>
@@ -64,26 +65,61 @@
                 <label class="form-control-label" style="color: white;" for="formGroup2">CHECK-ON DATE</label>
                 <input type="Date" class="form-control" id="formGroup2">
             </div>
-            <button type="button" class="btn" style="background-color: darkslategrey; color: white;">CHECK AVAILABILITY</button>
+            <button type="button" class="btn-frist" style="background-color: darkslategrey; color: white;">CHECK AVAILABILITY</button>
         </form>
     </div>
 
-    <div class="container">
+    <div class="container mt-3">
         <div class="row">
             <div class="col-6">
-                <img src="image/rooms.png" alt="image">
+                <img src="images/room.webp" class="img-fluid" alt="image">
+            </div>
+            <div class="col-6">
+                <div class="card" style="border: 0;">
+                    <div class="card-body">
+                        <h3 class="card-title">Welcome to Wood hotel</h3>
+                        <p class="card-text mt-5" style="text-align: justify;">The Woods hotel, located in the very heart of Indianapolis is a welcoming retreat for either people traveling across the country or businessmen, visiting our Rustbelt state for some commercial affairs. Here, we always make sure
+                            that you will have any of your needs satisfied, be it a comfortable hotel room with a strong WiFi signal and a diligent room service, a dining and lounge zone or any additional amenities a traveller might want... .
+                        </p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary" style="border: 1px solid #000000;
+                box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+                height: 57px;
+                width: 175px; background-color: rgba(196, 196, 196, 0.87); color: #000; border-radius: 0;">
+                Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between">
+
+            <img src="images/first-room.webp" alt="">
+
+            <img src="images/second-room.webp" alt="">
+
+            <img src="images/third-room.webp" alt="">
+
+            <button type="button" class="btn third">Vew More...</button>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <img src="images/img-piscine.webp" alt="">
             </div>
             <div class="col-6">
 
             </div>
+
         </div>
 
 
-    </div>
 
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
